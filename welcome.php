@@ -3,9 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ADMIN  </title>
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Hello ADMIN</h1>
+    <?include "navbar.php";
+    ?>
+    <div id="form">
+    <h1>Hello Admin!</h1>
+    </div>
   </body>
 </html>

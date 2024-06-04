@@ -1,16 +1,17 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Admin Login</title>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <?include "navbar.php";
-    ?>
+</head>
+<body>
     <div id="form">
-    <h1>Hello Admin!</h1>
+    <h1>Welcome Admin!</h1>
     </div>
-  </body>
+    <div>
+       <button id="button" onclick="location.href='attendance.php'">Student Attendance</button>
+        <button id="button" onclick="location.href='records.php'">Student Records</button>
+        <button id="button" onclick="location.href='admin_payment.php'">Update Payment Records</button>
+    </div>
+</body>
 </html>

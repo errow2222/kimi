@@ -7,16 +7,23 @@ if(isset($_POST['submit'])){
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     <title>Student Records</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<?php include "navbar3.php";
+    ?>
+<div id ="form">
     <h1>Student Records</h1>
-    <form method="GET" action="">
+    <form name="form" method="GET" action="">
         <label for="student_id">Student ID:</label>
         <input type="text" id="student_id" name="student_id" required>
-        <button type="submit">Search</button>
+        <button id="btn" type="submit">Search</button>
     </form>
+</div>
 
     <?php
     if (isset($_GET['student_id'])) {

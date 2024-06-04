@@ -1,16 +1,12 @@
-
 body{    
-    background: url("images/back.jpg");
+    background: url("images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
   }
-  
   .navbar-brand{
       font-size: 35px;
   }
-  
-  
   #form{
       background-color: rgb(255, 255, 255);
       width:28%;
@@ -42,14 +38,34 @@ body{
   #button{
     width: 70%;
     color:rgb(255, 255, 255);
-    background-color: rgb(2, 4, 12);
-    padding: 40px;
+    background-color: rgb(108, 22, 190);
+    padding: 20px;
     font-weight: 700;
     font-size: larger;
     border-radius: 20px;
     margin: 10px auto;
     margin-top: 25px;
     margin-left: 310px;
+}
+#button2{
+  width: 100%;
+  color:rgb(255, 255, 255);
+  background-color: rgb(168, 116, 216);
+  padding: 10px;
+  font-weight: 700;
+  font-size: larger;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+#button3{
+  width: 100%;
+  color:rgb(255, 255, 255);
+  background-color: rgb(5, 4, 6);
+  padding: 10px;
+  font-weight: 700;
+  font-size: larger;
+  border-radius: 20px;
+  margin: 10px auto;
 }
 
   form label{
@@ -78,4 +94,54 @@ body{
         padding:40px;
       }
     }
+    *{
+ margin:0;
+ padding: 0;
+ outline: 0;
+}
+.filter{
+ position: absolute;
+ left: 0;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ z-index: 1;
+ background: rgb(108, 22, 190);
+}
+table{
+ position: absolute;
+ z-index: 2;
+ left: 50%;
+ top: 60%;
+ transform: translate(-50%,-50%);
+ width: 60%; 
+ border-collapse: collapse;
+ border-spacing: 0;
+ box-shadow: 0 2px 15px rgba(64,64,64,.7);
+ border-radius: 12px 12px 0 0;
+ overflow: hidden;
+
+}
+td , th{
+ padding: 15px 20px;
+ text-align: center;
+ 
+
+}
+th{
+ background-color: rgb(108, 22, 190);
+ color: #fafafa;
+ font-family: 'Open Sans',Sans-serif;
+ font-weight: 200;
+ text-transform: uppercase;
+
+}
+tr{
+ width: 100%;
+ background-color: #fafafa;
+ font-family: 'Montserrat', sans-serif;
+}
+tr:nth-child(even){
+ background-color: #eeeeee;
+}
     

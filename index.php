@@ -11,7 +11,9 @@
     <?php 
     include "navbar.php";
     ?>
+    <div id="form">
     <h1>Welcome to WeLink</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <a id="button2" class="btn btn-outline-success mx-2" type="submit" href="guardian_login.php">Guardian</a>
+     <a id="button3" class="btn btn-outline-primary mx-2" type="submit" href="admin_login.php">Admin</a>
   </body>
 </html>
